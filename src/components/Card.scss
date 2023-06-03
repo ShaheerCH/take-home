@@ -1,0 +1,40 @@
+@import 'vanilla-framework';
+@include vanilla;
+@import '../../node_modules/vanilla-framework/scss/vanilla';
+
+.p-card {
+  margin-top: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  border-top: 3px solid #a87ca0;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.11rem;
+  }
+
+  h3 {
+    line-height: 2rem;
+    color: #06c;
+  }
+
+  .text-uppercase {
+    text-transform: capitalize;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px dotted white;
+    height: 0;
+    margin: 0.5rem 0;
+  }
+
+  p.italic {
+    font-style: italic;
+  }
+}
